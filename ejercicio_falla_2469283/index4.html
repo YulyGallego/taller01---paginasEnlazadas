@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calentamiento Global</title>
+</head>
+<body id = "bodyNoticias">
+    <main class = "mains">
+        <header>
+            <h1 class = titulo1>Formulario</h1>
+            <nav class = "navse">
+              <ul>
+                  <li>
+                      <a href="index.html" class="menu">Pagina inicial</a>
+                  </li>
+                  <li>
+                      <a href="index4.html" class="menu" id="selec">Formulario</a>
+                  </li>
+                  <li>
+                      <a href="index3.html" class="menu">Noticias</a>
+                  </li>
+                  <li>
+                      <a href="index2.html" class="menu">Resumen</a>
+                  </li>
+                      
+              </ul>
+          </nav>
+            <div class="clear"></div>
+        </header>
+        <section class="formulario">
+            <form>
+              <h2>registrate y responde algunalas de nuestras preguntas</h2>
+              <br>
+              <div id = "divFormulario">
+                <div>
+                    <label for="">Seleccione su pais de residencia:</label>
+                    <br>
+                    <select name="pais" class = "pais">
+                    <option value="colombia">Colombia</option> 
+                    <option value="españa">España</option>
+                    <option value="japon">Japon</option>
+                  </select></div><br>
+                  
+              <label for="nombre">Nombre:</label><br>
+              <input type="text" id="nombre" placeholder="ingrese su nombre"><br>
+              <br>
+              <label for="apellido">Apellido: *</label><br>
+                  <input type="text" id="apellido" placeholder="ingrese su apellido" maxlength="25" minlength="8" required><br>
+                  <br>
+              <label for="edad">Edad: </label><br>
+                  <input type="number" id="edad" placeholder="ingrese su edad"><br>
+                  <br>
+              <label for="email">Correo electronico: *</label><br>
+                  <input type="email" id="email" required placeholder="ingrese su email"><br>
+                  <br>
+              <label for="tel">Telefono:</label><br>
+                  <input type="tel" id="tel" placeholder="Celular"><br>
+                  <br>
+              <label for="date">Fecha: *</label><br>
+                  <input type="date" id="date" required><br>
+                  <br>
+              <div>
+                  <label for="">1. ¿Crees que la generación actual es menos consciente que la anterior?</label><br>
+                  <br>
+                <input type="radio" clas = "pre1"> 
+                <label for="pre1">Si.</label>
+                <br>
+                <input type="radio" clas = "pre2"> 
+                <label for="no">No.</label>
+                <br>
+                <input type="radio" clas = "pre3">  
+                <label for="pre3">Tal ves.</label>
+              </div><br>
+              <br>
+
+              <div>
+                <label for="">2. ¿Qué piensas de la situación del medio ambiente en la zona en la que vives?</label><br>
+                <br>
+              <input type="radio" clas = "pre1"> 
+              <label for="pre1">Me gustaria ayudar a que la situacion mejore.</label>
+              <br>
+              <input type="radio" clas = "pre2">  
+              <label for="pre2">No me interesa.</label>
+              <br>
+              <input type="radio" clas = "pre3"> 
+              <label for="pre3">no estoy entgerad@ del tema.</label>
+            </div><br>
+            <br>
+
+            <div>
+                <label for="">3. ¿Crees que eres una persona a la que le importa el medio ambiente?</label><br>
+                <br>
+              <input type="radio" clas = "pre1"> 
+              <label for="pre1">Si.</label>
+              <br>
+              <input type="radio" clas = "pre2">  
+              <label for="pre2">No.</label>
+            </div><br>
+            <br>
+
+            <div>
+                <label for="">4. ¿En qué grado crees que eres un amante de la naturaleza?</label><br>
+                <br>
+              <input type="radio" clas = "pre1"> 
+              <label for="pre1">Mucho.</label>
+              <br>
+              <input type="radio" clas = "pre2">  
+              <label for="pre2">poco.</label>
+              <br>
+              <input type="radio" clas = "pre3"> 
+              <label for="pre3">Nada.</label>
+            </div><br>
+            <br>
+
+            <div>
+                <label for="">5. ¿En qué grado crees que eres un amante de la naturaleza?</label><br>
+                <br>
+              <input type="radio" clas = "pre1"> 
+              <label for="pre1">Mucho.</label>
+              <br>
+              <input type="radio" clas = "pre2">  
+              <label for="pre2">poco.</label>
+              <br>
+              <input type="radio" clas = "pre3"> 
+              <label for="pre3">Nada.</label>
+            </div><br>
+            <br>
+
+            <div>
+                <label for="">6. ¿Te parece bien que estén retirando las bolsas de plástico de los supermercados?</label><br>
+                <br>
+              <input type="radio" clas = "pre1"> 
+              <label for="pre1">Si.</label>
+              <br>
+              <input type="radio" clas = "pre2">  
+              <label for="pre2">No.</label>
+            </div><br>
+            <br>
+            
+              <label for="mensaje">Ideas para mejorar la cituacion ambiental:</label><br>
+                  <textarea rows="5" cols="20" id="mensaje" placeholder="ingresa aqui tu idea"></textarea><br>
+              <br>
+              <input type="reset" value="Borrar" class = "btnformularioBorrar">
+              <input type="submit" value="Enviar" class = "btnformularioEnviar">
+            </div>
+            </form>
+          </section>
+        
+    </main>
+    
+</body>
+</html>
